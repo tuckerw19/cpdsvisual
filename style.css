@@ -1,0 +1,80 @@
+html {
+    background-color:#def2f1;
+}
+
+a#homebut:link {
+    color: #17252a;
+    text-decoration: none;
+}
+
+a#homebut:visited {
+    color: #17252a;
+}
+
+header, header>h1 {
+    color: #17252a;
+    font-family: "Archivo Black", sans-serif;
+    text-align: left;
+    font-size: 3em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+section#home {
+    background-color: #def2f1;
+    color: #17252A;
+    padding: 10px;
+    font-size: 1.5em;
+    font-family: Gudea;
+}
+
+/* menu */
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    background-color: #cfe2e1;
+}
+
+li {
+    float: left;
+    width: 20%;
+    font-family: Gudea;
+}
+
+li a {
+    display: block;
+    color: #17252A;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #17252a;
+    color: #cfe2e1;
+} 
+
+
+/* end of menu */
+
+h2.page_heading {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+div#footer {
+    font-family: Gudea;
+    font-size: .9em;
+    color: #17252a;
+    text-align: center;
+    opacity: 50%;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
